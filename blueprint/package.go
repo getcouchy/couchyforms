@@ -14,7 +14,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // Form is how a package says what its blueprint builds.

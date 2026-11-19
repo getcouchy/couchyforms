@@ -19,7 +19,7 @@ Surveyed on a real server (42 pack directories):
 
 ## Design
 
-**Helper pack** ([comfyform-helper](https://github.com/erstaples/comfyform-helper), a separate repo so it can be cloned straight into `custom_nodes`): registers no nodes, adds
+**Helper pack** ([comfyform-helper](https://github.com/getcouchy/couchyforms-helper), a separate repo so it can be cloned straight into `custom_nodes`): registers no nodes, adds
 `GET /comfyform/packs`:
 
 ```json

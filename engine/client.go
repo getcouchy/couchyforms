@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // Client talks to a ComfyUI server's HTTP API.

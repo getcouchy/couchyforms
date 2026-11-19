@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erstaples/comfyform/comfy"
-	"github.com/erstaples/comfyform/graph"
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/comfy"
+	"github.com/getcouchy/couchyforms/graph"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 const (

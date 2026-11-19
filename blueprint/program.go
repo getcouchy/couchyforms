@@ -17,7 +17,7 @@ import (
 	"go.starlark.net/starlarkstruct"
 	"go.starlark.net/syntax"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // partName is a name ctx.node and ctx.child accept: one part of a compiled id.

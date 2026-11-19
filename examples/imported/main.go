@@ -2,9 +2,9 @@
 package main
 
 import (
-	"github.com/erstaples/comfyform/comfy"
-	"github.com/erstaples/comfyform/examples/imported/nodes"
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/comfy"
+	"github.com/getcouchy/couchyforms/examples/imported/nodes"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 func main() {

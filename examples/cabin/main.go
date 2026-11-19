@@ -8,8 +8,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/erstaples/comfyform/comfy"
-	"github.com/erstaples/comfyform/examples/cabin/stages"
+	"github.com/getcouchy/couchyforms/comfy"
+	"github.com/getcouchy/couchyforms/examples/cabin/stages"
 )
 
 func main() {

@@ -15,7 +15,7 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 const (

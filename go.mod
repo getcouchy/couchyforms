@@ -1,4 +1,4 @@
-module github.com/erstaples/comfyform
+module github.com/getcouchy/couchyforms
 
 go 1.25.0
 

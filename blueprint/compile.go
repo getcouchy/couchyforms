@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // Resolver finds the package a digest names. Compile asks it once for each

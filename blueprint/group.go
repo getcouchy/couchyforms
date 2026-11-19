@@ -4,7 +4,7 @@ import (
 	"maps"
 	"slices"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // binding is one input of a node group's node that a port or a setting

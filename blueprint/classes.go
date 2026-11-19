@@ -1,6 +1,6 @@
 package blueprint
 
-import "github.com/erstaples/comfyform/schema"
+import "github.com/getcouchy/couchyforms/schema"
 
 // Classes tells compile and the checks what node classes a server has.
 // comfyform's schema.Schema satisfies it through SchemaClasses; another tool

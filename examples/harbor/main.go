@@ -10,9 +10,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/erstaples/comfyform/comfy"
-	"github.com/erstaples/comfyform/examples/harbor/nodes"
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/comfy"
+	"github.com/getcouchy/couchyforms/examples/harbor/nodes"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 const checkpoint = "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
