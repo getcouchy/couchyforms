@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 // fixtureSchema is the classes captured from comfy-2's /object_info.

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/erstaples/comfyform/internal/fakecomfy"
+	"github.com/getcouchy/couchyforms/internal/fakecomfy"
 )
 
 func main() {

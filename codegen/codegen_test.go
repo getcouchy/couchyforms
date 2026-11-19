@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 // Long combo lists are truncated in field comments; the cut must not split a

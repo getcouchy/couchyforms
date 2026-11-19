@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erstaples/comfyform/graph"
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/graph"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 func TestPackSource(t *testing.T) {

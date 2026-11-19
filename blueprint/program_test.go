@@ -15,7 +15,7 @@ import (
 
 	"go.starlark.net/starlark"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 const refProgramDir = "testdata/packages/ref-program"

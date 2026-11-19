@@ -4,8 +4,8 @@
 package nodes
 
 import (
-	"github.com/erstaples/comfyform/comfy"
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/comfy"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 var _ = graph.Bool

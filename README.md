@@ -36,10 +36,10 @@ Plan: 0 to add, 2 to change, 4 to rerun, 0 to remove, 2 unchanged.
 ## Quick start
 
 ```sh
-go install github.com/erstaples/comfyform/cmd/comfy@latest
+go install github.com/getcouchy/couchyforms/cmd/comfy@latest
 
 mkdir myflow && cd myflow && go mod init myflow
-go get github.com/erstaples/comfyform
+go get github.com/getcouchy/couchyforms
 comfy gen -server http://gpu-box:8188          # writes nodes/nodes.gen.go
 
 # start from an existing workflow: in ComfyUI, Workflow → Export (API)
@@ -116,7 +116,7 @@ Server resolution: `-server` > stack file `"server"` > `comfy.json` > `$COMFY_SE
 
 ## Known gaps / next steps
 
-- **Lock** pins custom node packs (git commit, Registry version, or content hash) when the server runs the [comfyform helper](https://github.com/erstaples/comfyform-helper), and git commits only via ComfyUI-Manager otherwise. Model files are pinned by *name*; hashes could come from the same helper.
+- **Lock** pins custom node packs (git commit, Registry version, or content hash) when the server runs the [comfyform helper](https://github.com/getcouchy/couchyforms-helper), and git commits only via ComfyUI-Manager otherwise. Model files are pinned by *name*; hashes could come from the same helper.
 - **Progress** is polled from `/history`. Switching to the websocket would give per-node progress and previews.
 - **Output cache** is per stack and per apply. A content-addressed store keyed by node hash would let stacks share results.
 - **UI export** (UI-format JSON with auto-layout) isn't implemented; `comfy graph` gives a Mermaid/DOT view instead.

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 // GoName converts "ckpt_name" -> "CkptName", "LATENT" -> "Latent",

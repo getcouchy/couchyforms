@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erstaples/comfyform/codegen"
-	"github.com/erstaples/comfyform/graph"
-	"github.com/erstaples/comfyform/internal/fakecomfy"
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/codegen"
+	"github.com/getcouchy/couchyforms/graph"
+	"github.com/getcouchy/couchyforms/internal/fakecomfy"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 func loadSchema(t *testing.T) *schema.Schema {

@@ -7,7 +7,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // checkRepeats returns the problems with a node group's repeats, each on

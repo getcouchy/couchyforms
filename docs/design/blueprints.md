@@ -8,7 +8,7 @@ a blueprint by holding an instance of it, a node whose class is
 into ordinary nodes, so ComfyUI receives a plain API-format graph and never sees
 a blueprint.
 
-The `blueprint` package (`github.com/erstaples/comfyform/blueprint`) reads and
+The `blueprint` package (`github.com/getcouchy/couchyforms/blueprint`) reads and
 checks packages, computes digests and interface differences, and compiles. It
 builds on `graph` (the API-format graph) and `schema` (object_info and
 `Class.Hash`).

@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erstaples/comfyform/codegen"
-	"github.com/erstaples/comfyform/engine"
-	"github.com/erstaples/comfyform/graph"
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/codegen"
+	"github.com/getcouchy/couchyforms/engine"
+	"github.com/getcouchy/couchyforms/graph"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 const usage = `comfy - ComfyUI workflows as code
@@ -450,11 +450,11 @@ func cmdLock(ctx context.Context, args []string) error {
 	switch {
 	case len(l.Packs) == 0:
 	case packs == nil:
-		fmt.Println("Packs are unpinned: the server has neither the comfyform helper nor ComfyUI-Manager (https://github.com/erstaples/comfyform-helper).")
+		fmt.Println("Packs are unpinned: the server has neither the comfyform helper nor ComfyUI-Manager (https://github.com/getcouchy/couchyforms-helper).")
 	case len(unpinned) > 0:
 		fmt.Printf("Unpinned (%s can't identify them): %s\n", packs.From, strings.Join(unpinned, ", "))
 		if packs.From != "comfyform-helper" {
-			fmt.Println("Install the comfyform helper to pin these (https://github.com/erstaples/comfyform-helper).")
+			fmt.Println("Install the comfyform helper to pin these (https://github.com/getcouchy/couchyforms-helper).")
 		}
 	}
 	return nil

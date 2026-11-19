@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 const (
-	graphPkg = "github.com/erstaples/comfyform/graph"
-	comfyPkg = "github.com/erstaples/comfyform/comfy"
+	graphPkg = "github.com/getcouchy/couchyforms/graph"
+	comfyPkg = "github.com/getcouchy/couchyforms/comfy"
 )
 
 // Generate returns a gofmt'd Go file with one constructor per node class.

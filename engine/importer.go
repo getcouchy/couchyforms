@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erstaples/comfyform/codegen"
-	"github.com/erstaples/comfyform/graph"
-	"github.com/erstaples/comfyform/schema"
+	"github.com/getcouchy/couchyforms/codegen"
+	"github.com/getcouchy/couchyforms/graph"
+	"github.com/getcouchy/couchyforms/schema"
 )
 
 // ImportOptions controls code generation for an imported workflow.
@@ -207,9 +207,9 @@ func Import(p graph.Prompt, s *schema.Schema, opt ImportOptions) ([]byte, error)
 
 	var src bytes.Buffer
 	fmt.Fprintf(&src, "// Imported by comfy import. Rename nodes freely; ids only need to be unique.\npackage main\n\nimport (\n")
-	fmt.Fprintf(&src, "\t%q\n", "github.com/erstaples/comfyform/comfy")
+	fmt.Fprintf(&src, "\t%q\n", "github.com/getcouchy/couchyforms/comfy")
 	if usesGraph {
-		fmt.Fprintf(&src, "\t%q\n", "github.com/erstaples/comfyform/graph")
+		fmt.Fprintf(&src, "\t%q\n", "github.com/getcouchy/couchyforms/graph")
 	}
 	if opt.NodesPkg != pathBase(opt.NodesImport) {
 		fmt.Fprintf(&src, "\t%s %q\n", opt.NodesPkg, opt.NodesImport)

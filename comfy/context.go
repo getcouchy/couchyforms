@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // Env vars the CLI uses to talk to the program.

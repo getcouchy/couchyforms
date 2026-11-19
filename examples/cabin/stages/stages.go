@@ -5,9 +5,9 @@ package stages
 import (
 	"fmt"
 
-	"github.com/erstaples/comfyform/comfy"
-	"github.com/erstaples/comfyform/examples/cabin/nodes"
-	"github.com/erstaples/comfyform/graph"
+	"github.com/getcouchy/couchyforms/comfy"
+	"github.com/getcouchy/couchyforms/examples/cabin/nodes"
+	"github.com/getcouchy/couchyforms/graph"
 )
 
 // Model is the MODEL/CLIP/VAE triple most stages pass around.
